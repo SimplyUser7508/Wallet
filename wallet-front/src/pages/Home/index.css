@@ -1,0 +1,55 @@
+.history-list {
+    font-family: 'Nunito', sans-serif;
+    color: #fafafa7e;
+    max-height: 70px;
+    overflow-y: scroll;
+}
+
+.accaunt-data {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.address-text {
+    font-family: 'Nunito', sans-serif;
+    display: inline-block;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+}
+
+.copy-icon {
+    cursor: pointer;
+    margin-left: 8px;
+    font-size: 1.2em;
+    vertical-align: middle;
+    color: #007bff;
+}
+
+.balance {
+    font-family: 'Nunito', sans-serif;
+}
+
+.tarnsaction-input {
+    margin: 0.5rem !important;
+    background-color: #ffffff0a !important;
+    border: 2px #ffff !important;
+    border-radius: 2rem !important;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #e4e4e422;
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(45, 134, 202);
+    border-radius: 100px;
+}
